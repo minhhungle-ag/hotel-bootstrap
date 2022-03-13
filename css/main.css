@@ -1,0 +1,271 @@
+/* ========= ELEMENT ========= */
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+
+/* ========= Z INDEX ========= */
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+
+.z-index--1 {
+    z-index: -1;
+}
+
+.z-index-1020 {
+    z-index: 1020;
+}
+
+.z-index-1030 {
+    z-index: 1030;
+}
+
+/* HEIGHT */
+.h-100vh {
+    height: 100vh
+}
+
+.h-60vh {
+    height: 60vh
+}
+
+/* ========= MARGIN ========= */
+.my-wrp {
+    margin: 60px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .my-ld-wrp {
+        margin: 120px 0;
+    }
+}
+
+/* ========= BACKGROUND ========= */
+.bg-auto-800 {
+    background-image: url('https://picsum.photos/1368/800');
+}
+
+.bg-auto-500 {
+    background-image: url('https://picsum.photos/1368/500');
+}
+
+.bg-auto-400 {
+    background-image: url('https://picsum.photos/1368/400');
+}
+
+.bg-banner-1 {
+    background-image: url('/images/banner-1.jpg');
+}
+
+.bg-banner-8 {
+    background-image: url('https://picsum.photos/1368/800');
+}
+
+
+.bg-banner-7 {
+    background-image: url('https://picsum.photos/1367/800');
+}
+
+.bg-banner-6 {
+    background-image: url('https://picsum.photos/1366/800');
+}
+
+
+.bg-banner-2 {
+    background-image: url('/images/banner-2.jpg');
+}
+
+.bg-banner-3 {
+    background-image: url('/images/banner-3.jpg');
+}
+
+.bg-banner-4 {
+    background-image: url('/images/banner-4.jpg');
+}
+
+.bg-service-1 {
+    background-image: url('/images/service-banner-1.jpg');
+}
+
+.bg-contact {
+    background-image: url('http://uda.vn/wp-content/uploads/2018/08/Contact-us.png');
+}
+
+.bg-service-2 {
+    background-image: url('/images/service-banner-2.jpg');
+}
+
+.bg-overlay-16 {
+    background-image: url('/images/16.jpg');
+}
+
+.bg-overlay-17 {
+    background-image: url('/images/17.jpg');
+}
+
+
+.bg-overlay-18 {
+    background-image: url('/images/18.jpg');
+}
+
+.bg-overlay-19 {
+    background-image: url('/images/19.jpg');
+}
+
+
+/* ========= BACKGROUND COLOR ========= */
+.bg-main {
+    background-color: #c7b39a;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-overlay-hover {
+    display: none;
+}
+
+/* ========= MAIN TEXT COLOR ========= */
+.text-main {
+    color: #c7b39a;
+}
+
+/* ========= FONT SIZE ========= */
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-72 {
+    font-size: 72px;
+}
+
+.fs-75 {
+    font-size: 75px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+    .title-md {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .title-lg {
+        font-size: 60px;
+    }
+}
+
+
+/* ========= MEDIA ========= */
+.media {
+    height: 56.25%;
+    width: 100%;
+}
+
+/* ========= BUTTON ========= */
+.btn-outline-white {
+    color: #fff;
+    border-color: white;
+}
+
+.btn-outline-white:hover {
+    color: #fff;
+    background-color: #c4c7c9;
+    border-color: white;
+}
+
+.btn-check:focus+.btn-outline-white, .btn-outline-white:focus {
+    box-shadow: 0 0 0 .25rem rgba(108, 117, 125, .3)
+}
+
+.btn-check:active+.btn-outline-white, .btn-check:checked+.btn-outline-white, .btn-outline-white.active, .btn-outline-white.dropdown-toggle.show, .btn-outline-white:active {
+    color: #fff;
+    background-color: #c4c7c9;
+    border-color: white;
+}
+
+.btn-check:active+.btn-outline-white:focus, .btn-check:checked+.btn-outline-white:focus, .btn-outline-white.active:focus, .btn-outline-white.dropdown-toggle.show:focus, .btn-outline-white:active:focus {
+    box-shadow: 0 0 0 .25rem rgba(108, 117, 125, .5)
+}
+
+.btn-outline-white.disabled, .btn-outline-white:disabled {
+    color: #78797a;
+    background-color: transparent
+}
+
+.bg-overlay-img {
+    display: none
+}
+
+/* ========= SCROLL TO TOP ========= */
+button#scrollButton {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1030;
+
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+
+    background-color: #c7b39a;
+    color: #fff;
+
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+button#scrollButton:hover {
+    opacity: 0.7;
+}
+
+/* ========= VACATION ========= */
+
+.vacation .card {
+    background-color: transparent;
+}
+
+.vacation .card:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.vacation .card:hover .bg-overlay-img {
+    display: block
+}
+
+.vacation .card:hover h5, .vacation .card:hover p {
+    color: white
+}
+
+
+/* ========= GALLERY ========= */
+.gallery-item:hover .bg-overlay {
+    display: none;
+}
