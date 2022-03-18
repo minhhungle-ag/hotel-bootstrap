@@ -4,6 +4,9 @@ a {
     color: inherit
 }
 
+a:hover {
+    color: inherit
+}
 
 /* ========= Z INDEX ========= */
 .z-index-1 {
